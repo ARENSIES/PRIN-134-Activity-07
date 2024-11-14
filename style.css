@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    animation: mymove 3s infinite ;
+}
+
+@keyframes mymove {
+    0%, 100% {transform: rotate(90deg);}
+
+    50% {transform: rotate(-90deg);}
+    
+  }
